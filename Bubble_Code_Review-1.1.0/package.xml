@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Bubble_Code_Review</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license>http://opensource.org/licenses/OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Bubble Code Review</summary>
+    <description>Bubble Code Review</description>
+    <notes>Bubble Code Review</notes>
+    <authors><author><name>Duong Vo</name><user>daiduong90</user><email>daiduong90@live.com</email></author></authors>
+    <date>2014-12-23</date>
+    <time>08:15:53</time>
+    <contents><target name="magecommunity"><dir name="Bubble"><dir name="Debug"><dir name="Model"><file name="Observer.php" hash="a92c99570761f3a0389e3fc298ecfff9"/></dir><dir name="etc"><file name="config.xml" hash="ea5e057e9770b41266e61705656a26a0"/></dir></dir></dir></target><target name="magelocal"><dir name="Bubble"><dir name="CodeReview"><dir name="Helper"><file name="Data.php" hash="bdb253f01f9461d5276a2ced5e8846ae"/></dir><dir name="Model"><file name="Observer.php" hash="209e1f245806722b5386095773847e49"/></dir><dir name="controllers"><file name="DebugController.php" hash="51fcf6e6680e31536356e0018ab57ce6"/></dir><dir name="etc"><file name="config.xml" hash="3db128cdb4ac69da0791f1396cfdbee1"/></dir></dir></dir><dir name="Zend"><dir name="Db"><dir name="Adapter"><dir name="Pdo"><file name="Abstract.php" hash="3944728208f6c3bb99c9623a503a4574"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Bubble_CodeReview.xml" hash="20f9bff38846771b9b1fe7e34e4d43ca"/><file name="Bubble_Debug.xml" hash="d1e854a256c1aa32f2611aacfbd11e4a"/></dir></target><target name="magelib"><dir name="Bubble"><dir name="Output"><dir name="Renderer"><file name="Abstract.php" hash="27b3eb7b804f8477219f464a57f64ba9"/><file name="Cli.php" hash="ed17351663f3f3637de87e4b17708782"/><file name="Html.php" hash="08b531ad0a07b8245e57ae02de26db53"/></dir><file name="Renderer.php" hash="f5c96cbc932be8404d4778206ce23fbc"/></dir></dir></target><target name="mage"><dir name="shell"><file name="review.php" hash="f1ffdd135dc3ea1b90ceb924e6fc62a2"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.0</max></php></required></dependencies>
+</package>
